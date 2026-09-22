@@ -28,7 +28,7 @@ jobs:
           cache: 'yarn'
 
       - name: Install frontend dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install
 
       - name: Build CIPP frontend
         run: npm run build
